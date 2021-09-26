@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub_header">
+<nav>
+<a href="index.html"><img src="logo1.png" alt=""></a>
+<!--here i'm adding id nav_link for javascript-->
+<div class="nav_link" id="navlinkid">
+<i class="fa fa-times"onclick="hideMenu()" ></i>
+
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="course.html">COURSE</a></li>
+<li><a href="blog.html">BLOG</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()" ></i>
+
+</nav>
+
+<h1>About Us</h1>
+
+
+
+
+</section>
+
+
+<!--about us content-->
+
+<section class="about_page">
+    <div class="row">
+        <div class="about_col">
+            <i><h1>Hi I'm Eilla </h1></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui quas autem id maiores velit
+                 deserunt voluptate animi vitae dolor. Ex maxime ut consequuntur sequi laborum consequatur
+                  nesciunt magni deleniti minima repellat libero, totam expedita eos quidem itaque mollitia
+                   aperiam sit labore voluptatibus corporis deserunt blanditiis quasi. Deserunt veniam eum 
+                   recusandae soluta hic nisi, amet enim tempora voluptatibus! Illum delectus aspernatur
+                    magnam harum ipsum ratione ducimus eos earum optio consequatur ut quis quia quaerat eaque
+                     sequi, molestiae eum voluptatem? Quis quia, eligendi ipsam nisi quasi, molestiae perferendis
+                 dolor hic magni iure doloremque velit officia eaque voluptatem, quidem vero quaerat amet!</p>
+                <a href="" class="hero_btn  red_btn">Explore</a>
+        </div>
+
+        <div class="about_col">
+            <img src="e.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--footer-->
+
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Officia quia recusandae velit aliquid 
+nihil aut fugit <br> vel excepturi repellendus quo! </p>
+<div class="icons">
+<i class="fa fa-facebook" ></i>
+<i class="fa fa-twitter" ></i>
+<i class="fa fa-linkedin" ></i>
+<i class="fa fa-instagram" ></i>
+
+</div>
+<p>Made with <i class="fa fa-heart-o" ></i> &nbsp By Deepak</p>
+</section>
+<!--end footer-->
+
+
+
+
+
+<script>
+var navlinks=document.getElementById("navlinkid");
+function showMenu(){
+
+    navlinks.style.right='0';
+}
+
+function hideMenu(){
+    navlinks.style.right='-200px';
+
+}
+</script>
+
+    
+</body>
+</html>
